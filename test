@@ -1,0 +1,71 @@
+    <header>
+        <button class="mainpage"><a href="./index.html">Back to main page</a></button>
+        <link rel="stylesheet" href="signup.css">
+        
+       <h1>Create a new account here</h1>
+       <div id="formm">
+       <form>
+        <section class="personalinfo">
+        <label for="name">Username</label>
+        <br>
+          <input type="text" name="userinfo" id="name" required>
+          <br><br> 
+          <label for="email">Email</label>
+          <br>
+          <input type="email" id="email" name="userinfo" required>
+          <br><br>
+          <label for="userpassword"> Password</label>
+          <br>
+          <input type="password" id="userpassword" name="userinfo" required  minlenght="1" maxlenght="40">
+          <br><br>
+          <label for="user-phone-no">Phone number</label>
+          <br>
+          <input type="number" id="user-phone-no" name="userinfo" min="0">
+          <br><br>
+          <label for="age">Your age</label>
+          <br>
+          <input type="date" id="age" name="userinfo" step="1" min="16" max="100">
+          <br><br>
+          <section class="country">
+          <label for="country"> Where are you from?</label>
+          <br>
+          <input type="text" id="country" list="city" name="country" required>
+          <datalist id="city">
+            <option value="Egypt"></option>
+            <option value="Usa"></option>
+            <option value="France"></option>
+            <option value="Canada"></option>
+            </datalist>
+            </select>
+          </header>
+          </section>
+        </div>
+            <hr>
+             <div class="middle">
+          <h2>Did you read and accept the terms and conditions of user?</h2>
+          <a href="./terms.html" target="_blank"> Terms and conditions of users</a>
+          <br><br>
+          <input type="radio" id="yes" value="yes" name="terms" required>
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" value="no" name="terms">
+          <label for="no">No</label>
+          </div>
+          <section class="advertisment">
+          <h3>Where did you know about us?</h3>
+          <input name="ad" type="checkbox" value="facebook" class="info">
+          <label for="fb">Facebook</label>
+          <br>
+          <input  name="ad" type="checkbox" value="instgram" class="info">
+          <label for="insta">Instgram</label>
+          <br>
+          <input name="ad" type="checkbox" value="youtube" class="info">
+          <label for="yout">YouTube</label>
+          <br>
+          <input name="ad" type="checkbox" value="none" class="info">
+          <label for="none">None of the above</label>
+          </section>
+          <footer>
+          <br>
+          <input type="submit" value="Submit" >
+         </footer>
+      </form>

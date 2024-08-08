@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background: linear-gradient(245.59deg,#749fee 0%,#a7c7f1 29%, #9fd0e0 74% );
+    cursor: url('icons8-cursor-48.png'),auto;
+ }
+header{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}

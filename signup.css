@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Patrick Hand", cursive;
+}
+body{
+    background: linear-gradient(245.59deg,#749fee 0%,#458ff0 29%, #9fd0e0 74% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    cursor: url('icons8-cursor-48.png'),auto;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    align-items: top;
+    margin: 0;
+    padding: 20px;
+    background: transparent;
+    cursor: url('icons8-cursor-48.png'),auto;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: white;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline:none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input-box i{
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: white;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+.wrapper .btn:hover{
+    cursor: url('icons8-cursor-48.png'),auto;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: white;
+}
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: url('icons8-cursor-48.png'),auto;
+}
+/* Basic styling for the dropdown menu */
+.dropdown select {
+    /* background-color: #3c75f0; */
+    background: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 30px;
+    cursor: pointer;
+    width: 345px;
+    align-items: center;
+    margin-bottom:30px;
+    border-radius: 20px;
+    margin-top:20px;
+    border: 2px solid white;
+}
+.dropdown h4{
+    margin-left: 10px;
+}
+/* Styling for the dropdown options */
+.dropdown select option {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#dropdownMenu{
+    align-items: center;
+}
+#selectedOption {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.from select {
+    /* background-color: #3c75f0; */
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16px;
+    border: 20px;
+    cursor: pointer;
+    width: 150px;
+    align-items: center;
+    margin-bottom:20px;
+    border-radius: 20px;
+    margin-top:20px;
+    border: 2px solid white;
+    float: left;
+}
+.from select option {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    /* display: block; */
+}
+.to select {
+    /* background-color: #3c75f0; */
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16px;
+    border: 20px;
+    cursor: pointer;
+    width: 150px;
+    align-items: center;
+    margin-bottom:20px;
+    border-radius: 20px;
+    margin-top:20px;
+    border: 2px solid white;
+    float: right;
+}
+.to select option {
+    background-color: #f9f9f9;
+    color: rgb(8, 8, 8);
+    padding: 12px 16px;
+    text-decoration: none;
+}
+    /* display: block; */
+.day select {
+    /* background-color: #3c75f0; */
+    background: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16px;
+    border: 20px;
+    cursor: pointer;
+    width: 345px;
+    align-items: center;
+    margin-bottom:20px;
+    border-radius: 20px;
+    margin-top:20px;
+    border: 2px solid white;
+}
+.day select option {
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
